@@ -10,7 +10,13 @@ Rubin Observatory Operations: Enabling collaborative ground-up budget planning a
 RTN-081
 =======
 
-Change is inevitable in large big budget operational programs. Embracing, rather than resisting, change is key to being proactive. It also keeps teams motivated as it’s another avenue for leadership to “listen” to what is going on at the team level. At Rubin Observatory an agile approach to budgeting has been implemented. Annually a bottom up reset, called a scrub, is carried out across all departments of the Rubin Operations organization providing an opportunity to adapt and be nimble to changing situations that can affect resources and budgets. This paper will provide details on the importance for an annual budget scrub, processes followed, tools used and how the cycle continues year on year.
+Change is inevitable in large, big-budget operational programs. 
+Embracing, rather than resisting, change is key to being proactive. 
+It also keeps teams motivated as it’s another avenue for leadership to "listen" to what is going on at the team level. 
+At Rubin Observatory, an agile approach to budgeting has been implemented, following related experience in previous High Energy Physics experiments. 
+Annually, a ground-up review, to address changing needs, priorities and emerging issues, is carried out across all departments of the Rubin Operations organization. 
+This "annual scrub" provides an opportunity to adapt and be nimble to changing situations that can affect resources and budgets. 
+This paper provides details on the importance of an annual budget scrub, the processes followed, the tools used, and how the cycle continues year on year.
 
 Links
 =====

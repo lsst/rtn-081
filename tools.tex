@@ -1,34 +1,43 @@
 \section{Tools} \label{sec:tools}
 
-This section of the paper describes the tools used for the scrub process. With the requirement for agility, collaborative working and ease of linking to existing tools, Google Workspace  is the chosen platform onto which the scrub tools have been developed. The tool, called the Scrub Sandbox,  needs to facilitate the following:
-
+This section describes the tools used for the scrub process. 
+With the requirement for agility, collaborative working and ease of linking to existing tools, Google Workspace is the chosen platform on which all the Rubin planning tools, including the scrub tool, have been developed. 
+The particular tool that supports the annual scrub is a Google Sheets workbook called the ``Scrub Sandbox.''
+It needs to facilitate:
 \begin{enumerate}
-\item Capturing the current state.
-\item Capturing what the desired change is.
-\item Inputting flow down milestones for the upcoming FY based on higher level milestones defined by the directors office.
-\item Standardize inputs coming in from the department and teams.
-\item Easily seeing the impact of the desired change on labor and non-labor budget.
+\item capturing the current state of the operations plan for each team;
+\item capturing what the desired changes are;
+\item inputting flow down milestones for the upcoming FY based on higher level milestones defined by the directors Office;
+\item standardizing inputs coming in from the Departments and Teams;
+\item easiy visualization of the impact of the desired change on the labor and non-labor budgets;
+\item collaboration between Team Leaders as they work through their competing needs.
 \end{enumerate}
 
 \begin{figure}[h!]
 \begin{centering}
 \includegraphics[width=1.0\textwidth]{Figure3OverviewScrubSandbox}
-	\caption{ Overview of Scrub Sandbox
+	\caption{ Overview of the Scrub Sandbox tool.
 \label{fig:sandbox}}
 \end{centering}
 \end{figure}
 
-\noindent Furthermore, the tool needs to enable the following areas to be scrubbed:
+\noindent Furthermore, the tool needs to enable the following aspects of the overall operations plan to be scrubbed:
 \begin{enumerate}
-\item Work Breakdown Structure (WBS).
-\item Risks.
-\item Milestones.
-\item Labor expenditure.
+\item Work Breakdown Structure (WBS);
+\item risks;
+\item Milestones;
+\item Labor expenditure;
 \item Non-labor expenditure.
 \end{enumerate}
+Each Team is provided with a sheet within the workbook, that follows a standard layout. 
+The worksheet is organized into 7 vertical sections, where the left to right flow is through each of the aspects in the above list. 
+Within all sections of all worksheets, the tool implements a standard approach to the proposing of changes (see \autoref{fig:wbs}).
+An upper block of cells displays the current plan for that aspect, imported dynamically from the relevant planning tool using the \texttt{importrange} command (e.g. the vital information for the risks assigned to a team are read in from the Risk Register).
+A lower block of cells is then available for proposed modifications to be entered.
+A Proposed Change column is where any needed changes are flagged, chosen from the drop down choices which are Keep As-Is, Change, and Remove/Replace. 
+There is space to enter a note if explanation is needed.
+If either the value Change or Remove/Replace is chosen it will require a corresponding entry to be made in the Proposed Changes table lower block.
 
-In all the above cases, a standard approach is applied to propose changes See \autoref{fig:wbs}. The Proposed Change column is where any needed changes are flagged. During the scrub review, a value is chosen from the drop down choices which are Keep As-Is, Modify, Remove/Replace. There is space to enter a note if explanation is needed.
-If either the value Modify or Addition is chosen it will require a corresponding entry in the Proposed Changes table.
 Proposed changes to the labor and non-labor plan are visualized in monetary terms in real-time with baseline comparison charts such as those shown in \autoref{fig:baseline}.
 
 
